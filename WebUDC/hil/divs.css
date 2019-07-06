@@ -1,0 +1,76 @@
+/*Divs*/
+
+#rightblock {	/*Rules for right side of page*/
+	
+	padding-top:5px;
+	padding-left:30px;
+	padding-right:20px;
+	padding-bottom:5px;
+	
+	
+	
+	position:absolute;
+	width:600px;
+	left:285px;	
+	right:1200px;
+}
+
+#leftblock { /*Rules for left side of page*/
+	color: white;
+	background-color:#004447;
+	list-style-type: circle;
+	
+	padding-top:0px;
+	padding-left: 0px;
+	padding-right:0px;
+	padding-bottom:20px;
+	
+	
+	
+	position:absolute;
+	left:35px;
+}
+
+#wholeblock {
+	position:absolute;
+	
+	margin-top:0;
+	margin-right:400px;
+	margin-bottom:0;
+	margin-left:400px;
+	background-color: gray;
+	}
+
+
+#exception { /*Exceptions made to display different image bullets*/
+	background-color:#002729;
+	padding-top:7px;
+	padding-bottom:7px;
+	padding-left:23px;
+	line-height: 150%;
+	
+}
+
+#exception2 {	/*Copy of Exceptions made to display different image bullets (different attributes)*/
+	text-decoration: underline;
+	padding-top:7px;
+	padding-bottom:1px;
+	padding-left:10px;
+	line-height: 150%;
+}
+	
+#lst {
+	font-size:75%;
+	color: white;
+	margin: 0 0 20px 0;
+}
+
+#lst2 {
+	padding-bottom:0px;
+	letter-spacing: .5px;
+	line-height: 2;
+	font-size:110%;
+	
+}
+
+	

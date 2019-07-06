@@ -1,0 +1,23 @@
+@import "Header.css";
+@import "Paragraph.css";
+@import "divs.css";
+
+
+/*All Rules - everything uses trebuchet ms font*/
+*{font-family: Trebuchet MS }
+
+body { /*Overall background set to white*/
+	background-image:url(brackgroundall.jpg);
+}
+
+
+ /*Because the only links were in the dark side of the page, i decided
+ to have the links be white in all stages*/
+a, a:hover, a:active, a:visited { color: white; }
+
+
+
+
+
+
+

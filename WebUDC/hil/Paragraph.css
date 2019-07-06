@@ -1,0 +1,15 @@
+/*Paragraphs*/
+
+#prgrph {/*Rules for first intro paragraph*/
+	letter-spacing: .5px;
+	line-height: 2;
+	font-size:110%
+	
+}
+
+#prgrph2 { /*rules for the other paragraphs*/
+	letter-spacing: .5px;
+	line-height: 1.8;
+	font-size:100%;
+	font-weight:normal;
+}

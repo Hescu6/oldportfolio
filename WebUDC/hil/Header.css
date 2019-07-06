@@ -1,0 +1,15 @@
+/*Headers*/
+h1{/*Main big header*/
+	font-size:290%;
+	font-weight:bold;
+	color: #004447;
+}
+
+
+h3{ /*Header used instead of bullet point with 
+	individual icons*/
+	font-weight:bold;
+	font-size:130%;
+	color: #17E6EE;
+}
+

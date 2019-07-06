@@ -1,0 +1,100 @@
+@import "JSmenu.css";
+@import "slideshow.css";
+
+html {
+	position: relative;
+    min-height: 100%;
+	background-color: silver; 
+}
+
+
+body {
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+	min-width: 875px;
+	max-width: 1000px;
+	height: 100%;
+	margin:0 auto;
+    border: 1px solid;
+    padding: 40px;
+	background-color: #333; 
+	border-radius: 10px
+}
+
+header{
+	
+	
+	border-radius: 10px 60px;
+	height: 95px;
+    padding: 5px;
+    color: white;
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
+	background-color: #550000; 
+}
+
+footer {
+	
+	border-radius: 10px 60px;
+
+	position: absolute;
+   
+    bottom: 0;
+    height: 60px;
+    
+	width: 800px; 
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+	background-color: #550000; 
+	
+	
+}
+
+
+header {
+	
+	background-image: url("logoudcfirebird.png");
+	background-size: 150px ;
+    background-repeat: no-repeat;
+    background-position:50px ;
+	
+}
+
+
+section {
+	/*border-style: solid;
+    border-width: 1px;*/
+    margin: 5px;
+    padding: 10px;
+    background-color:white; 
+	border-radius: 10px;
+	min-height: 100%;
+
+}
+
+h2 {
+	padding:5px;
+	margin-top:15px;
+	
+}
+
+article {
+	/*border-style: dotted;
+    border-width: 5px;*/
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+
+}
+
+img {
+	
+	border-radius: 10px;
+	padding:5px;
+	height:auto;
+	
+}
+
+
+
