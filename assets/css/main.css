@@ -2200,7 +2200,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			height: 20em;
+			height: 0em;
 			border-radius: 0;
 		}
 
@@ -2397,7 +2397,7 @@ input, select, textarea {
 			text-decoration: none;
 			display: inline-block;
 			font-size: 1.5rem;
-			margin: 3 9px 1.6875em 0;
+			margin: -30 3 1.6875em 0;
 			padding: 0.35em 0 0 3.5em;
 			position: relative;
 			vertical-align: middle;
@@ -2415,6 +2415,7 @@ input, select, textarea {
 				text-transform: none !important;
 				font-family: 'Font Awesome 5 Free';
 				font-weight: 400;
+				box-sizing: inherit;
 			}
 
 			ul.feature-icons li:before {
@@ -3317,6 +3318,7 @@ input, select, textarea {
 
 			ul.feature-icons li {
 				display: block;
+
 				width: 100%;
 			}
 
@@ -3330,3 +3332,13 @@ input, select, textarea {
 			}
 
 	}
+
+		@media screen and (max-width:960px) {
+
+			.hide-text{
+					color:transparent;
+					font-size:0;
+					position: relative;
+				}
+
+		}
